@@ -50,6 +50,7 @@ Different kinds of basic buttons, **primary, warning and disable, and pill shape
 * button group
 * integrate to certain frontend framework
 * other interesting elements
+* rewrite with SCSS
 
 ### License ###
 MIT
