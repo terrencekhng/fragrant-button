@@ -1,0 +1,9 @@
+/* reset user agent styling */
+
+body {
+  margin: 0;
+}
+
+a, button {
+  margin: 0;
+}

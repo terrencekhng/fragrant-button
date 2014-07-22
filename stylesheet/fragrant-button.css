@@ -1,0 +1,336 @@
+/* styles for splendid buttons 
+ * ONLY Chrome, Firefox is recommended
+ */
+
+.btn {
+  font: 18px Helvetica;
+  color: #fff;
+  background-color: #a0a0a0;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  display: inline-block;
+  float: right;
+  outline: 0;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  border: 0;
+  /* IE hacks */
+  zoom: 1;
+  *display: inline;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #1994d1;
+}
+
+.btn:active {
+  background-color: #196e98;
+}
+
+.pill-btn {
+  -moz-border-radius: 50em;
+  -webkit-border-radius: 50em;
+  -o-border-radius: 50em;
+  -ms-border-radius: 50em;
+  border-radius: 50em;
+}
+
+/* ----------------------Button green flat-----------------------------*/
+
+.green {
+  background-color: #00c251;
+}
+
+.green:focus,
+.green:hover {
+  background-color: #008751;
+}
+
+.green:active {
+  background-color: #007c4a;
+}
+
+/*----------------------Button green three D----------------------------*/
+
+.green.threed {
+  border-bottom: 6px solid #008751;
+}
+
+.green:active {
+  border-color: #007c4a;
+}
+
+/* -----------------------------Button green gradient---------------------*/
+
+.green.gradient {
+  background-color: #00c251;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00c251), to(#00965a));
+  background-image: -moz-linear-gradient(#00c251, #00965a);
+  background-image: -o-linear-gradient(#00c251, #00965a);
+  background-image: linear-gradient(#00c251, #00965a);
+}
+
+.green.gradient:focus,
+.green.gradient:hover {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00965a), to(#00c251));
+  background-image: -moz-linear-gradient(#00965a, #00c251);
+  background-image: -o-linear-gradient(#00965a, #00c251);
+  background-image: linear-gradient(#00965a, #00c251);
+}
+
+.green.gradient:active {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00805a), to(#00aa51));
+  background-image: -moz-linear-gradient(#00805a, #00aa51);
+  background-image: -o-linear-gradient(#00805a, #00aa51);
+  background-image: linear-gradient(#00805a, #00aa51);
+}
+
+/*--------------------Button green gradient three D----------------------*/
+
+.green.gradient.threed {
+  border-bottom: 6px solid #00743c;
+}
+
+.green.gradient.threed:focus,
+.green.gradient.threed:hover {
+  border-color: #00c251;
+}
+
+.green.gradient.threed:active {
+  border-color: #00aa51;
+}
+
+/* ----------------------------Button blue flat-------------------------*/
+.blue {
+  background-color: #1994d1;
+}
+
+.blue:focus,
+.blue:hover {
+  background-color: #15638a;
+}
+
+.blue:active {
+  background-color: #145779;
+}
+
+/*---------------------------Button blue three D---------------------------*/
+
+.blue.threed {
+  border-bottom: 6px solid #15638a;
+}
+
+.blue.threed:active {
+  border-color: #145779;
+}
+
+/*-----------------------------Button blue gradient----------------------------*/
+
+.blue.gradient {
+  background-color: #1994d1; 
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1994d1), to(#116e9c));
+  background-image: -moz-linear-gradient(#1994d1, #116e9c);
+  background-image: -o-linear-gradient(#1994d1, #116e9c);
+  background-image: linear-gradient(#1994d1, #116e9c);
+}
+
+.blue.gradient:focus,
+.blue.gradient:hover {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#116e9c), to(#1994d1));
+  background-image: -moz-linear-gradient(#116e9c, #1994d1);
+  background-image: -o-linear-gradient(#116e9c, #1994d1);
+  background-image: linear-gradient(#116e9c, #1994d1);
+}
+
+.blue.gradient:active {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#10638d), to(#1882b6));
+  background-image: -moz-linear-gradient(#10638d, #1882b6);
+  background-image: -o-linear-gradient(#10638d, #1882b6);
+  background-image: linear-gradient(#10638d, #1882b6); 
+}
+
+/*-----------------------------Button blue gradient three D--------------------*/
+
+.blue.gradient.threed {
+  border-bottom: 6px solid #145270;
+}
+
+.blue.gradient.threed:focus,
+.blue.gradient.threed:hover {
+  border-color: #1994d1;
+}
+
+.blue.gradient.threed:active {
+  border-color: #1882b6;
+}
+
+/* ----------------------------Button orange flat------------------------------*/
+
+.orange {
+  background-color: #ffa849; 
+}
+
+.orange:focus,
+.orange:hover {
+  background-color: #bd803e;
+}
+
+.orange:active {
+  background-color: #a77138;
+}
+
+/*---------------------------Button orange three D------------------------------*/
+
+.orange.threed {
+  border-bottom: 6px solid #bd803e;
+}
+
+.orange.threed:active {
+  border-color: #a77138;
+}
+
+
+/*---------------------------Button orange gradient-----------------------------*/
+
+.orange.gradient {
+  background-color: #ffa849;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffa849), to(#cc873b));
+  background-image: -moz-linear-gradient(#ffa849, #cc873b);
+  background-image: -o-linear-gradient(#ffa849, #cc873b);
+  background-image: linear-gradient(#ffa849, #cc873b);
+}
+
+.orange.gradient:focus,
+.orange.gradient:hover {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cc873b), to(#ffa849));
+  background-image: -moz-linear-gradient(#cc873b, #ffa849);
+  background-image: -o-linear-gradient(#cc873b, #ffa849);
+  background-image: linear-gradient(#cc873b, #ffa849);
+}
+
+.orange.gradient:active {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b47939), to(#e09645));
+  background-image: -moz-linear-gradient(#b47939, #e09645);
+  background-image: -o-linear-gradient(#b47939, #e09645);
+  background-image: linear-gradient(#b47939, #e09645);
+}
+
+/*---------------------------Button orange gradient three D---------------------*/
+
+.orange.gradient.threed {
+  border-bottom: 6px solid #9a6730;
+}
+
+.orange.gradient.threed:focus,
+.orange.gradient.threed:hover {
+  border-color: #ffa849;
+}
+
+.orange.gradient.threed:active {
+  border-color: #e09645;
+}
+
+/*---------------------------Button silver flat---------------------------------*/
+
+.silver {
+  background-color: #c0c0c0;
+}
+
+.silver:focus,
+.silver:hover {
+  background-color: #777777;
+}
+
+.silver:active {
+  background-color: #606060;
+}
+
+/*-------------------------Button silver three D-------------------------------*/
+
+.silver.threed {
+  border-bottom: 6px solid #777777;
+}
+
+.silver.threed:active {
+  border-color: #606060;
+}
+
+/*-------------------------Button silver gradient------------------------------*/
+
+.silver.gradient {
+  background-color: #c0c0c0;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#c0c0c0), to(#888888));
+  background-image: -moz-linear-gradient(#c0c0c0, #888888);
+  background-image: -o-linear-gradient(#c0c0c0, #888888);
+  background-image: linear-gradient(#c0c0c0, #888888);
+}
+
+.silver.gradient:focus,
+.silver.gradient:hover {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#888888), to(#c0c0c0));
+  background-image: -moz-linear-gradient(#888888, #c0c0c0);
+  background-image: -o-linear-gradient(#888888, #c0c0c0);
+  background-image: linear-gradient(#888888, #c0c0c0);
+}
+
+.silver.gradient:active {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#757575), to(#a4a4a4));
+  background-image: -moz-linear-gradient(#757575, #a4a4a4);
+  background-image: -o-linear-gradient(#757575, #a4a4a4);
+  background-image: linear-gradient(#757575, #a4a4a4);
+}
+
+/*----------------------Button silver gradient three D----------------------*/
+
+.silver.gradient.threed {
+  border-bottom: 6px solid #555555;
+}
+
+.silver.gradient.threed:focus,
+.silver.gradient.threed:hover {
+  border-color: #c0c0c0;
+}
+
+.silver.gradient.threed:active {
+  border-color: #a4a4a4;
+}
+
+/* ---------------------Button primary--------------------------------------*/
+
+.btn.primary {
+  font-weight: bold;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.7);
+}
+
+/*----------------------Button warning-------------------------------*/
+
+.btn.warning {
+  background-color: #ff4500;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.7);
+}
+
+.btn.warning:focus,
+.btn.warning:hover {
+  background-color: #d03800;
+}
+
+.btn.warning:active {
+  background-color: #8b0000;
+}
+
+/*----------------------Button disable--------------------------------*/
+
+.btn.disable {
+  opacity: 0.3;
+}
+
+/*-----------------------------------*/
