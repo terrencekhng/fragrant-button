@@ -6,6 +6,7 @@
 ### About fragrant-button ###
 fragrant-button is a set of CSS3 buttons, they're flat designed but we offer three D buttons and gradient buttons, 
 so they're fragrant, tasty huh!
+We hope to provide a high flexibility, high configure buttons and button components.
 
 ### Try ###
 
@@ -26,7 +27,7 @@ Plain huh, just add some color, we offer green, blue, orange and silver(default)
   ```html
   <button class="btn orange">
     ORANGE
-    </button>
+  </button>
   ```
   generates orange button.
 
@@ -51,10 +52,10 @@ Different kinds of basic buttons, **primary, warning and disable, and pill shape
 ### TODO ###
 
 * button group
-* grid system
+* integrate to certain frontend framework
 * other interesting elements
 
-### License ### 
+### License ###
 MIT
 
 ### Future ###
