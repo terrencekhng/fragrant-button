@@ -27,7 +27,7 @@ Plain huh, just add some color, we offer green, blue, orange and silver(default)
   <button class="btn orange">
     ORANGE
     </button>
-    ```
+  ```
   generates orange button.
 
 The default is flat, make it 3D:
