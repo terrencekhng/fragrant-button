@@ -11,19 +11,18 @@ We hope to provide a high flexibility, high configure buttons and button compone
 ### Try ###
 
 Taste the default button:
-  ```html
-  <button class="btn">
-    BUTTON
-  </button>
-  ```
-
+```html
+<button class="btn">
+  BUTTON
+</button>
+```
 Plain huh, just add some color, we offer green, blue, orange and silver(default):
-  ```html
-    <button class="btn green">
-      GREEN
-    </button>
-  ```
-  generates green button.
+```html
+  <button class="btn green">
+    GREEN
+  </button>
+```
+generates green button.
   ```html
   <button class="btn orange">
     ORANGE
