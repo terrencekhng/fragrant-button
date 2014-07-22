@@ -1,7 +1,7 @@
 ## fragrant-button ##
----
+
 ### Screenshot ###
-![screenshot](/screenshot/button-screenshot.png)
+![screenshot](./screenshot/button-screenshot.png)
 
 ### About fragrant-button ###
 fragrant-button is a set of CSS3 buttons, they're flat designed but we offer three D buttons and gradient buttons, 
@@ -10,7 +10,7 @@ so they're fragrant, tasty huh!
 ### Try ###
 
 * Taste the default button:
-  ```html
+  ```HTML
   <button class="btn">
   ```
 * Plain huh, just add some color, we offer green, blue, orange and silver(default):
