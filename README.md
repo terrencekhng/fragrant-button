@@ -44,13 +44,27 @@ Flat is nonsense, make it gradient and more real:
 ```
 generates a gradient green button.
 Different kinds of basic buttons, **primary, warning and disable, and pill shaped**, there may be more in the future.
+Generate button group is easy:
+```html
+<div class="btn-group">
+  <button class="btn green threed">
+    BUTTON
+  </button>
+  <button class="btn blue threed">
+    BUTTON
+  </button>
+  <button class="btn silver threed">
+    BUTTON
+  </button>
+</div>
+```
 
 ### TODO ###
 
-* button group
+* enhance button group
 * integrate to certain frontend framework
 * other interesting elements
-* rewrite with SCSS
+* rewrite using SCSS
 
 ### License ###
 MIT
