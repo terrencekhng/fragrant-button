@@ -44,6 +44,7 @@ Flat is nonsense, make it gradient and more real:
 ```
 generates a gradient green button.
 Different kinds of basic buttons, **primary, warning and disable, and pill shaped**, there may be more in the future.
+
 Generate button group is easy:
 ```html
 <div class="btn-group">
