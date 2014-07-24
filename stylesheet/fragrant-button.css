@@ -3,7 +3,9 @@
  */
 
 .btn {
-  font: 18px Helvetica;
+  position: relative;
+  overflow: visible;
+  font: 14px Helvetica;
   color: #fff;
   background-color: #a0a0a0;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
@@ -333,4 +335,49 @@
   opacity: 0.3;
 }
 
-/*-----------------------------------*/
+/*----------------------Button big------------------------------------*/
+
+.btn.big {
+  font-size: 20px;
+}
+
+/*----------------------Button group----------------------------------*/
+
+.btn-group {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  /* IE hacks */
+  zoom: 1;
+  *display: inline;
+}
+
+.btn-group .btn {
+  float: left;
+  margin: 0px;
+}
+
+.btn-group > .btn:first-child {
+  margin-left: 0;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.btn-group > .btn:last-child {
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn-group > .btn:not(:first-child):not(:last-child) {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
