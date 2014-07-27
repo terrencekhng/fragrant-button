@@ -68,7 +68,7 @@ Generate button group is easy:
 * rewrite using SCSS
 
 ### License ###
-MIT
+[MIT](http://opensource.org/licenses/MIT)
 
 ### Future ###
 Any color schemes are my personal idea, feel free to modify them with your brilliant artistic skills.
